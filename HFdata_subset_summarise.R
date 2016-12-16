@@ -9,8 +9,8 @@ options(chron.year.abb = FALSE)
 library(RColorBrewer)
 
 # set working directories
-in.dir<-"input directory here"  # location of data files in long format
-out.dir<-"output directroy here"  # 
+in.dir<-"input directory here"  # directory containing data files in long format
+out.dir<-"output directroy here"  # directory for summarised files and plots
 
 ## import files, combine into one dataframe
 setwd(in.dir)
