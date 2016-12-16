@@ -9,8 +9,8 @@ options(chron.year.abb = FALSE)
 library(RColorBrewer)
 
 # set working directories
-in.dir<-"C:/dg45koti/Dropbox/IGB/Data/MARS 2015/HF data QC/07_03_long_format_QC2_data"
-out.dir<-"C:/dg45koti/Dropbox/IGB/Data/MARS 2015/HF data QC/08_subsetting_summarising"
+in.dir<-"input directory here"  # location of data files in long format
+out.dir<-"output directroy here"  # 
 
 ## import files, combine into one dataframe
 setwd(in.dir)
